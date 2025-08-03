@@ -277,8 +277,8 @@ circle {
   }
 
   .circle-timer {
-    width: 280px;
-    height: 280px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     border: 10px solid #e599f7;
     display: flex;
