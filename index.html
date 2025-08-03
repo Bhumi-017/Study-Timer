@@ -10,6 +10,16 @@
   <button id="theme-toggle">🌙</button>
 
   <h1 class="main-title">Study Timer</h1>
+  
+  <div class="circle-timer">
+    <div class="countdown">
+      <svg viewBox="0 0 100 100">
+        <circle class="bg" cx="50" cy="50" r="45" />
+        <circle class="progress" cx="50" cy="50" r="45" />
+      </svg>
+      <div id="timer">00:00</div>
+    </div>
+  </div>
 
   <div class="layout">
     <div class="controls">
@@ -29,16 +39,6 @@
         <button id="start">Start</button>
         <button id="pause">Pause</button>
         <button id="reset">Reset</button>
-      </div>
-    </div>
-
-    <div class="circle-timer">
-      <div class="countdown">
-        <svg viewBox="0 0 100 100">
-          <circle class="bg" cx="50" cy="50" r="45" />
-          <circle class="progress" cx="50" cy="50" r="45" />
-        </svg>
-        <div id="timer">00:00</div>
       </div>
     </div>
   </div>

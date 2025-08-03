@@ -46,7 +46,7 @@ body {
   text-align: center;
   font-size: 2.5rem;
   margin-top: 5rem;
-  margin-bottom: -2rem;
+  margin-bottom: 5rem;
   width: 100%;
 }
 
@@ -54,18 +54,21 @@ body {
 .layout {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   height: 100%;
-  padding-top: 40px;
-  gap: 3rem;
+  margin-top: -25rem;
+  gap: 1rem;
 }
 
 /* Controls */
 .controls {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 1.5rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
   align-items: center;
 }
 
@@ -134,22 +137,22 @@ body {
 
 /* Timer */
 .circle-timer {
-  width: 350px;
-  height: 350px;
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
   background: var(--input-bg);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 0;
   position: relative;
+  margin: 2rem auto 0;
 }
 
 .countdown {
   position: relative;
-  width: 300px;
-  height: 300px;
+  width: 340px;
+  height: 340px;
   margin: 0 auto;
 }
 
@@ -181,8 +184,9 @@ circle {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: bold;
+  color: var(--text-color);
 }
 
 /* Responsive */
@@ -204,6 +208,7 @@ circle {
     height: auto;
     width: 100%;
     box-sizing: border-box;
+    margin-top: 0;
   }
 
   .main-title {
@@ -212,7 +217,6 @@ circle {
     text-align: center;
     width: 100%;
     margin-top: 1rem;
-    margin-left: 1rem;
     letter-spacing: 2px;
   }
 
@@ -222,18 +226,8 @@ circle {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* ensure center alignment */
     margin: 1rem auto 0 auto;
-    margin-left: 1rem;
     gap: 1.2rem;
-  }
-
-  .time-inputs {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    width: 100%;
   }
 
   .time-inputs input {
@@ -261,19 +255,6 @@ circle {
     margin: 0 auto;
   }
 
-  .session-label {
-    font-size: 1rem;
-    text-align: center;
-  }
-
-  .buttons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    gap: 1rem;
-  }
-
   .buttons button {
     background-color: #e599f7;
     border: none;
@@ -285,32 +266,18 @@ circle {
     width: 100%;
     max-width: 260px;
   }
-}
 
   .circle-timer {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    border: 10px solid #e599f7;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 2rem auto 0;
-    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    width: 280px;
+    height: 280px;
+  }
+
+  .countdown {
+    width: 240px;
+    height: 240px;
   }
 
   #timer {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #333;
+    font-size: 2.2rem;
   }
-
-  .theme-toggle {
-    position: absolute;
-    top: 1rem;
-    margin-right: 0.5rem;
-    background-color: #e599f7;
-    border-radius: 50%;
-    padding: 0.5rem;
-  }
-
+}
