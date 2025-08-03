@@ -223,6 +223,7 @@ circle {
     align-items: center;
     justify-content: center; /* ensure center alignment */
     margin: 0 auto;
+    margin-left: 5rem;
     gap: 1.2rem;
   }
 
