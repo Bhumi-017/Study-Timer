@@ -47,25 +47,22 @@ body {
   font-size: 2.5rem;
   margin-top: 5rem;
   margin-bottom: -2rem;
+  width: 100%;
 }
 
 /* Layout */
 .layout {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   height: 100%;
   padding-top: 40px;
-  gap: 4rem;
+  gap: 3rem;
 }
 
 /* Controls */
 .controls {
-  position: absolute;
-  left: 30px;
-  top: 45%;
-  transform: translateY(-50%);
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -145,7 +142,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -200px;
+  margin-top: 0;
   position: relative;
 }
 
@@ -197,15 +194,47 @@ circle {
   .layout {
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
+    height: auto;
+    padding: 2rem 1rem;
     gap: 2rem;
-    padding-top: 20px;
+  }
+
+  .main-title {
+    font-size: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
   }
 
   .controls {
+    width: 100%;
+    max-width: 300px;
     position: static;
     transform: none;
     align-items: center;
-    margin-bottom: 1rem;
+    gap: 1rem;
+  }
+
+  .time-inputs {
+    width: 100%;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .time-inputs input {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .buttons {
+    width: 100%;
+    align-items: center;
+  }
+
+  .buttons button {
+    width: 100%;
+    max-width: 200px;
   }
 
   .circle-timer {
@@ -218,3 +247,4 @@ circle {
     font-size: 2rem;
   }
 }
+
