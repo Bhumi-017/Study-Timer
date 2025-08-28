@@ -26,16 +26,15 @@ This timer helps students and professionals stay focused by alternating between 
 ## 🛠️ Installation  
 
 1. Clone the repository  
-   ```bash
+
    git clone https://github.com/your-username/study-timer.git
-````
+
 ---
 
 2. Navigate to the project folder
 
-   ```bash
    cd study-timer
-   ```
+ 
 ---
 
 3. Open `index.html` in your browser.
