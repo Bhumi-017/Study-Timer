@@ -36,6 +36,8 @@ This timer helps students and professionals stay focused by alternating between 
    ```bash
    cd study-timer
    ```
+---
+
 3. Open `index.html` in your browser.
 
 ---
