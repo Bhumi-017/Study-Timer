@@ -23,6 +23,11 @@ This timer helps students and professionals stay focused by alternating between 
 
 ---
 
+## 🌐 Live Demo  
+🔗 [Click here to use Study Timer](https://study-timer-pi.vercel.app/)
+
+---
+
 ## 🛠️ Installation  
 
 1. Clone the repository  
