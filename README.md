@@ -29,6 +29,7 @@ This timer helps students and professionals stay focused by alternating between 
    ```bash
    git clone https://github.com/your-username/study-timer.git
 ````
+---
 
 2. Navigate to the project folder
 
